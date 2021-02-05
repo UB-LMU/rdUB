@@ -7,64 +7,115 @@
 	xmlns:lmUB="https://www.ub.uni-muenchen.de/index"
 	xmlns:datacite="http://datacite.org/schema/kernel-4">
 	
-	<!-- elementFormDefault="qualified": lmUB-Namespace auch für die lokalen Elemente -->
-
+	<!-- Import of the DataCite XML Schema 4.3 -->
 	<xsd:import namespace="http://datacite.org/schema/kernel-4"
 		schemaLocation="http://schema.datacite.org/meta/kernel-4.3/metadata.xsd"/>
 
 	<xsd:annotation>
-		<xsd:documentation xml:lang="de">
-			Schema für das Forschungsdaten-Repositorium der UB der LMU; 
-			Erweitert das DataCite-Metadatenschema 4.3 um LMU/UB-spezifische Datenfelder
-			Stand: November 2020;
-			Bearbeiter: Sonja Kümmet (UB LMU / IT)
+		<xsd:documentation xml:lang="en">
+			XML Schema for the research data repository of the University Library of LMU. 
+			It extends the DataCite schema 4.3 by some elements needed for searching and displaying versioned and hierarchized data.  
 		</xsd:documentation>
 	</xsd:annotation>
 
 
-	<!-- Wurzelelement -->
+	<!-- Root element -->
 	<xsd:element name="rData" type="lmUB:rData"/>
-
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">
+				The root element of rdUB, rData, behaves like a wrapper. 
+				It contains a DataCite record and a couple of elements that are not (yet) part of DataCite.  
+			</xsd:documentation>
+		</xsd:annotation>
+	
+	
+	<!-- complexTypes (hierarchical order, top-down) -->
 	<xsd:complexType name="rData">
 		<xsd:sequence>
+		
 			<xsd:element ref="datacite:resource"/>
+				<xsd:annotation>
+					<xsd:documentation>
+						The DataCite record. 
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="contentUrls" type="lmUB:contentUrls" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						The link(s) to the location(s) where the research data is stored. 
+					</xsd:documentation>
+				</xsd:annotation>
+			
 			<xsd:element name="metadataUrl" type="xsd:anyURI" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						The link to the location where the metadata record (= rdUB) of the research data is stored. 
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="checksums" type="lmUB:checksums"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						 A SHA1 file checksum. 
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="hierarchy" type="lmUB:hierarchy"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						The level of description. 
+						Example: If a project contains several items and the items are aggregated into datasets, then the project gets the tag "level1", the datasets get "level2" and the items "level3".
+					</xsd:documentation>
+				</xsd:annotation>	
+				
 			<xsd:element name="projectVersions" type="lmUB:projectVersions" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						The version of the project, the research data is part of. 
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="objectVersion" type="xsd:string" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						The version of the research data itself. 
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="currentVersion" type="xsd:boolean" />
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						Marker for the current version of a research data record.
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="collections" type="lmUB:collections" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						One ore more projects or (data) collections to which the research data can be related. 
+					</xsd:documentation>
+				</xsd:annotation>
+			
 			<xsd:element name="faculties" type="lmUB:faculties" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						The faculty or faculties, the research data belongs to.  
+					</xsd:documentation>
+				</xsd:annotation>
+				
 			<xsd:element name="geoLocations" type="lmUB:geoLocations" minOccurs="0"/>
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						 Like a DataCite geoLocations element but without the child elements geoLocationPoint, geoLocationBox and geoLocationPolygon.
+						 Instead, there is an additional child element, geoIdentifier, to store a reference, for example, to GeoNames.
+					</xsd:documentation>
+				</xsd:annotation>
+			
 		</xsd:sequence>
 	</xsd:complexType>
 	
-	<!-- simpleTypes -->
-	<xsd:simpleType name="hierarchy">
-		<xsd:restriction base="xsd:string">
-			<xsd:pattern value="level[0-9]+"/>
-		</xsd:restriction>
-	</xsd:simpleType>
 	
-	<xsd:simpleType name="faculty">
-		<xsd:restriction base="xsd:string">
-			<xsd:enumeration value="Faculty of Biology"/>
-			<xsd:enumeration value="Faculty of Chemistry and Pharmacy"/>
-			<xsd:enumeration value="Faculty of Geosciences"/>
-			<xsd:enumeration value="Faculty of History and the Arts"/>
-			<xsd:enumeration value="Faculty for the Study of Culture"/>
-			<xsd:enumeration value="Faculty of Mathematics, Computer Science and Statistics"/>
-			<xsd:enumeration value="Faculty of Physics"/>
-			<xsd:enumeration value="Faculty for Languages and Literatures"/>
-			<xsd:enumeration value="Faculty of Medicine"/>
-			<xsd:enumeration value="Faculty of Social Sciences"/>
-			<xsd:enumeration value="University Library"/>
-		</xsd:restriction>
-	</xsd:simpleType>
-	
-	<!-- complexTypes -->
 	<xsd:complexType name="contentUrls">
 		<xsd:sequence>
 			<xsd:element name="contentUrl" type="xsd:anyURI" maxOccurs="unbounded"/>
@@ -73,7 +124,7 @@
 	
 	<xsd:complexType name="checksums">
 		<xsd:sequence>
-			<xsd:element name="checksum" type="xsd:anyURI" maxOccurs="unbounded"/>
+			<xsd:element name="checksum" type="lmUB:checksum" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	
@@ -116,4 +167,44 @@
 			</xsd:extension>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	
+	
+	<!-- simpleTypes -->
+	<xsd:simpleType name="hierarchy">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="level[0-9]+"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="checksum">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="urn:sha1:\w{40}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="faculty">
+		<!-- The enumeration list contains all faculties of LMU Munich (status: Febr 2021) plus the University Library. -->
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Faculty of Catholic Theology"/>
+			<xsd:enumeration value="Faculty of Protestant Theology"/>
+			<xsd:enumeration value="Faculty of Law"/>
+			<xsd:enumeration value="Faculty of Business Administration - Munich School of Management"/>
+			<xsd:enumeration value="Faculty of Economics"/>
+			<xsd:enumeration value="Faculty of Medicine"/>
+			<xsd:enumeration value="Faculty of Veterinary Medicine"/>
+			<xsd:enumeration value="Faculty of History and the Arts"/>
+			<xsd:enumeration value="Faculty of Philosophy, Philosophy of Science and the Study of Religion"/>
+			<xsd:enumeration value="Faculty of Psychology and Educational Sciences"/>
+			<xsd:enumeration value="Faculty for the Study of Culture"/>
+			<xsd:enumeration value="Faculty for Languages and Literatures"/>
+			<xsd:enumeration value="Faculty of Social Sciences"/>
+			<xsd:enumeration value="Faculty of Mathematics, Informatics and Statistics"/>
+			<xsd:enumeration value="Faculty of Physics"/>
+			<xsd:enumeration value="Faculty of Chemistry and Pharmacy"/>
+			<xsd:enumeration value="Faculty of Biology"/>
+			<xsd:enumeration value="Faculty of Geosciences"/>
+			<xsd:enumeration value="University Library"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
 </xsd:schema>
