@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lmUB:rData xmlns:lmUB="https://www.ub.uni-muenchen.de/index" xmlns:datacite="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.ub.uni-muenchen.de/index file:///C:/Users/kuemmet/eclipse-workspace/FDM/rdUB/rdUB.xsd">
+  <datacite:resource>
+    <datacite:identifier identifierType="lmUB">e0cd73cf-c0a7-4436-9b65-fb5719c09983</datacite:identifier>
+    <datacite:creators>
+      <datacite:creator>
+        <datacite:creatorName nameType="Personal">Krefeld, Thomas</datacite:creatorName>
+        <datacite:givenName>Thomas</datacite:givenName>
+        <datacite:familyName>Krefeld</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">123778689</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-9657-6052</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:creator>
+      <datacite:creator>
+        <datacite:creatorName nameType="Personal">Lücke, Stephan</datacite:creatorName>
+        <datacite:givenName>Stephan</datacite:givenName>
+        <datacite:familyName>Lücke</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1167274636</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0002-5853-1918</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:creator>
+    </datacite:creators>
+    <datacite:titles>
+      <datacite:title xml:lang="en">VerbaAlpina Version 19/2</datacite:title>
+    </datacite:titles>
+    <datacite:publisher xml:lang="de">Universitätsbibliothek der Ludwig-Maximilians-Universität München</datacite:publisher>
+    <datacite:publicationYear>2021</datacite:publicationYear>
+    <datacite:subjects>
+      <datacite:subjects>
+  		<datacite:subject xml:lang="de" schemeURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/4056446-0" subjectScheme="GND">Sprachatlas</datacite:subject> 
+  		<datacite:subject xml:lang="de" schemeURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/4001328-5" subjectScheme="GND">Alpen</datacite:subject> 
+  		<datacite:subject xml:lang="de" schemeURI="http://d-nb.info/gnd/" valueURI="http://d-nb.info/gnd/4056463-0" subjectScheme="GND">Sprachgeografie</datacite:subject> 
+  	</datacite:subjects>
+    </datacite:subjects>
+    <datacite:contributors>
+      <datacite:contributor contributorType="ProjectLeader">
+        <datacite:contributorName nameType="Personal">Krefeld, Thomas</datacite:contributorName>
+        <datacite:givenName>Thomas</datacite:givenName>
+        <datacite:familyName>Krefeld</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">123778689</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-9657-6052</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectLeader">
+        <datacite:contributorName nameType="Personal">Lücke, Stephan</datacite:contributorName>
+        <datacite:givenName>Stephan</datacite:givenName>
+        <datacite:familyName>Lücke</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1167274636</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0002-5853-1918</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Englmeier, David</datacite:contributorName>
+        <datacite:givenName>David</datacite:givenName>
+        <datacite:familyName>Englmeier</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932088</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="DataCurator">
+        <datacite:contributorName nameType="Personal">Kümmet, Sonja</datacite:contributorName>
+        <datacite:givenName>Sonja</datacite:givenName>
+        <datacite:familyName>Kümmet</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1042287090</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0002-8954-0200</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/0000000460298179" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Universitätsbibliothek, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Kunzmann, Markus</datacite:contributorName>
+        <datacite:givenName>Markus</datacite:givenName>
+        <datacite:familyName>Kunzmann</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932126</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectManager">
+        <datacite:contributorName nameType="Personal">Mutter, Christina</datacite:contributorName>
+        <datacite:givenName>Christina</datacite:givenName>
+        <datacite:familyName>Mutter</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932207</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0003-4889-6611</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Wiatr, Aleksander</datacite:contributorName>
+        <datacite:givenName>Aleksander</datacite:givenName>
+        <datacite:familyName>Wiatr</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932290</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" affiliationIdentifierScheme="ISNI" schemeURI="http://www.isni.org">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Zacherl, Florian</datacite:contributorName>
+        <datacite:givenName>Florian</datacite:givenName>
+        <datacite:familyName>Zacherl</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932363</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-8695-6983</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="HostingInstitution">
+        <datacite:contributorName nameType="Organizational" xml:lang="de">IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:contributorName>
+      </datacite:contributor>
+    </datacite:contributors>
+    <datacite:dates>
+      <datacite:date dateType="Submitted">2021-02-10</datacite:date>
+      <datacite:date dateType="Collected">2019-01-01/2019-06-30</datacite:date>
+    </datacite:dates>
+    <datacite:language>de</datacite:language>
+    <datacite:resourceType resourceTypeGeneral="Dataset">Linguistic Data</datacite:resourceType>
+    <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="project-specific identifier">VA_192</datacite:alternateIdentifier>
+    </datacite:alternateIdentifiers>
+    <datacite:relatedIdentifiers>
+    	<datacite:relatedIdentifier relatedIdentifierType="URL" relationType="IsVariantFormOf">https://www.verba-alpina.gwi.uni-muenchen.de?page_id=133&amp;db=191&amp;tk=3096</datacite:relatedIdentifier>
+    	<datacite:relatedIdentifier relatedIdentifierType="URL" relationType="IsNewVersionOf">e9bag49a-79d1b-3318-dd81-efa0a2c8989f</datacite:relatedIdentifier>
+    	<datacite:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">1bd84c7d-39da-3069-8a7c-a40126d39e99</datacite:relatedIdentifier>
+    </datacite:relatedIdentifiers>
+    <datacite:sizes>
+      <datacite:size>591626000B</datacite:size>
+    </datacite:sizes>
+    <datacite:formats>
+      <datacite:format>text/csv+zip</datacite:format>
+    </datacite:formats>
+    <datacite:rightsList>
+      <datacite:rights xml:lang="en-US" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-SA-4.0" rightsURI="https://creativecommons.org/licenses/by-sa/4.0/"/>
+    </datacite:rightsList>
+    <datacite:descriptions>
+      <datacite:description xml:lang="de" descriptionType="Abstract">
+      	Das Projekt erschließt den einzelsprachlich und dialektal stark fragmentierten Alpenraum in seiner kultur- 
+      	und sprachgeschichtlichen Zusammengehörigkeit selektiv und analytisch und überwindet dadurch die 
+      	traditionelle Beschränkung auf im wesentlichen aktuelle politische Einheiten (Nationalstaaten). 
+      	Die ausgewählten Sachgebiete betreffen die Natur, die Kulturgeschichte und die kulturelle Gegenwart. 
+      	Dazu wird unter Verwendung zeitgemäßer Medientechnologie (Datenbank, Georeferenzierung, Internet, social software) 
+      	eine umfassende, einzelsprachübergreifende Forschungsumgebung mit mehreren Funktionsbereichen aufgebaut: 
+      	Sie dient der Dokumentation (interaktive georeferenzierte Kartographie), der Datenerhebung (durch social software), 
+      	der Publikation und ihrer eigenen kollaborativen Weiterentwicklung; damit wird ein Modell für die Überführung der 
+      	Geolinguistik in die digital humanities entwickelt. Die leitende Absicht besteht darin, bereits vorliegende
+      	(und teils schlecht zugängliche) Sprachatlas- und Wörterbuchdaten in vervollständigter, gebündelter, mehrdimensional 
+      	aufbereiteter und sprachgeschichtlich analysierter Form zugänglich zu machen. Durch die Vervollständigung 
+      	(Neuerhebung mit Hilfe von social software) werden der ungleichmäßige Belegraster der Datenaltbestände ausgeglichen 
+      	und ihre semantischen und onomasiologischen Inkonsistenzen überwunden. So integriert das Projekt die beiden 
+      	dominanten, methodologisch alternativen Ansätze der digitalen Geolinguistik, nämlich die an der sprachgeographischen 
+      	Tradition orientierte Dokumentation einerseits (vgl. ALD-I, ALD-II) und die Neuerhebung durch Crowdsourcing 
+      	andererseits (vgl. AdA, ALIQUOT) in einem umfassenden Rahmen. VerbaAlpina wird durch zahlreiche Kooperationspartner 
+      	unterstützt. Das Projekt wendet sich in erster Linie an die wissenschaftliche Öffentlichkeit; entsprechend fachlich 
+      	sind die erklärenden Texte unter dem Reiter METHODOLOGIE angelegt. Vor allem die zentrale Funktion unter dem Reiter 
+      	INTERAKTIVE KARTE ist jedoch für jedermann leicht zugänglich. Interessierten Laien wird daher empfohlen, sich zunächst 
+      	mit diesem Angebot vertraut zu machen: Die Suchfilter sollten sich trotz der vielleicht ungewohnten Terminologie 
+      	beim Ausprobieren weitgehend selbst erklären.
+      </datacite:description>
+    </datacite:descriptions>
+    <datacite:geoLocations>
+    	<datacite:geoLocation>
+  			<datacite:geoLocationPlace>Alpenraum</datacite:geoLocationPlace> 
+			<datacite:geoLocationBox>
+  				<datacite:westBoundLongitude>5.2</datacite:westBoundLongitude> 
+  				<datacite:eastBoundLongitude>16.9</datacite:eastBoundLongitude> 
+ 				<datacite:southBoundLatitude>43.5</datacite:southBoundLatitude> 
+  				<datacite:northBoundLatitude>48</datacite:northBoundLatitude> 
+  			</datacite:geoLocationBox>
+        </datacite:geoLocation>
+    </datacite:geoLocations>
+    <datacite:fundingReferences>
+      <datacite:fundingReference>
+        <datacite:funderName>Deutsche Forschungsgemeinschaft (DFG)</datacite:funderName>
+        <datacite:funderIdentifier schemeURI="https://ror.org/" funderIdentifierType="ROR">https://ror.org/018mejw64</datacite:funderIdentifier>
+        <datacite:awardNumber awardURI="http://gepris.dfg.de/gepris/projekt/253900505">253900505</datacite:awardNumber>
+        <datacite:awardTitle>VERBA ALPINA. Der alpine Kulturraum im Spiegel seiner Mehrsprachigkeit</datacite:awardTitle>
+      </datacite:fundingReference>
+    </datacite:fundingReferences>
+  </datacite:resource>
+  <contentUrls>
+    <contentUrl>repositoryUrl/VA_192.csv</contentUrl>
+  </contentUrls>
+  <metadataUrl>repositoryUrl/VA_192.xml</metadataUrl>
+  <checksums>
+    <checksum>urn:sha1:2f55f5b919deb93bb165f5533845551c2e4aa411</checksum>
+  </checksums>
+  <hierarchy>level1</hierarchy>
+  <projectVersions>
+    <projectVersion>19/2</projectVersion>
+  </projectVersions>
+  <currentVersion>true</currentVersion>
+  <collections>
+    <collection>VerbaAlpina</collection>
+  </collections>
+  <faculties>
+    <faculty>Faculty for Languages and Literatures</faculty>
+  </faculties>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Alps</geoLocationPlace>
+      <geoIdentifier schemeURI="http://www.geonames.org/" nameIdentifierScheme="GeoNames">2661786</geoIdentifier>
+    </geoLocation>
+  </geoLocations>
+</lmUB:rData>

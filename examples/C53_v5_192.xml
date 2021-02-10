@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lmUB:rData xmlns:lmUB="https://www.ub.uni-muenchen.de/index" xmlns:datacite="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.ub.uni-muenchen.de/index https://raw.githubusercontent.com/UB-LMU/rdUB/f6417a14d06ddbe68ff9727319ecadd3ffc01555/rdUB.xsd">
+  <datacite:resource>
+    <datacite:identifier identifierType="lmUB">1bd84c7d-39da-3069-8a7c-a40126d39e99</datacite:identifier>
+    <datacite:creators>
+      <datacite:creator>
+        <datacite:creatorName nameType="Personal">Krefeld, Thomas</datacite:creatorName>
+        <datacite:givenName>Thomas</datacite:givenName>
+        <datacite:familyName>Krefeld</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">123778689</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-9657-6052</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:creator>
+      <datacite:creator>
+        <datacite:creatorName nameType="Personal">Lücke, Stephan</datacite:creatorName>
+        <datacite:givenName>Stephan</datacite:givenName>
+        <datacite:familyName>Lücke</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1167274636</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0002-5853-1918</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:creator>
+    </datacite:creators>
+    <datacite:titles>
+      <datacite:title xml:lang="en">VerbaAlpina instances for the concept "TRANSPORT VON MIST, MIT SCHLITTEN"</datacite:title>
+    </datacite:titles>
+    <datacite:publisher xml:lang="de">Universitätsbibliothek der Ludwig-Maximilians-Universität München</datacite:publisher>
+    <datacite:publicationYear>2021</datacite:publicationYear>
+    <datacite:subjects>
+      <datacite:subject xml:lang="en" schemeURI="http://dewey.info/" subjectScheme="dewey">410 Linguistics</datacite:subject>
+      <datacite:subject xml:lang="en" schemeURI="http://dewey.info/" subjectScheme="dewey">004 Data processing computer science</datacite:subject>
+      <datacite:subject xml:lang="de">TRANSPORT VON MIST, MIT SCHLITTEN</datacite:subject>
+      <datacite:subject xml:lang="en" schemeURI="http://dewey.info/" subjectScheme="dewey">430 Germanic languages German</datacite:subject>
+      <datacite:subject xml:lang="en" schemeURI="https://glottolog.org/resource/languoid/id/" subjectScheme="Glottocode" valueURI="https://glottolog.org/resource/languoid/id/high1286">High German</datacite:subject>
+    </datacite:subjects>
+    <datacite:contributors>
+      <datacite:contributor contributorType="ProjectLeader">
+        <datacite:contributorName nameType="Personal">Krefeld, Thomas</datacite:contributorName>
+        <datacite:givenName>Thomas</datacite:givenName>
+        <datacite:familyName>Krefeld</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">123778689</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-9657-6052</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectLeader">
+        <datacite:contributorName nameType="Personal">Lücke, Stephan</datacite:contributorName>
+        <datacite:givenName>Stephan</datacite:givenName>
+        <datacite:familyName>Lücke</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1167274636</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0002-5853-1918</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Englmeier, David</datacite:contributorName>
+        <datacite:givenName>David</datacite:givenName>
+        <datacite:familyName>Englmeier</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932088</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="DataCurator">
+        <datacite:contributorName nameType="Personal">Kümmet, Sonja</datacite:contributorName>
+        <datacite:givenName>Sonja</datacite:givenName>
+        <datacite:familyName>Kümmet</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1042287090</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0002-8954-0200</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/0000000460298179" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Universitätsbibliothek, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Kunzmann, Markus</datacite:contributorName>
+        <datacite:givenName>Markus</datacite:givenName>
+        <datacite:familyName>Kunzmann</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932126</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectManager">
+        <datacite:contributorName nameType="Personal">Mutter, Christina</datacite:contributorName>
+        <datacite:givenName>Christina</datacite:givenName>
+        <datacite:familyName>Mutter</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932207</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0003-4889-6611</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" schemeURI="http://www.isni.org" affiliationIdentifierScheme="ISNI">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Wiatr, Aleksander</datacite:contributorName>
+        <datacite:givenName>Aleksander</datacite:givenName>
+        <datacite:familyName>Wiatr</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932290</datacite:nameIdentifier>
+        <datacite:affiliation affiliationIdentifier="http://isni.org/isni/000000040589340X" affiliationIdentifierScheme="ISNI" schemeURI="http://www.isni.org">Institut für Romanische Philologie, Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="ProjectMember">
+        <datacite:contributorName nameType="Personal">Zacherl, Florian</datacite:contributorName>
+        <datacite:givenName>Florian</datacite:givenName>
+        <datacite:familyName>Zacherl</datacite:familyName>
+        <datacite:nameIdentifier schemeURI="https://d-nb.info/gnd/" nameIdentifierScheme="GND">1170932363</datacite:nameIdentifier>
+        <datacite:nameIdentifier schemeURI="https://orcid.org/" nameIdentifierScheme="ORCID">0000-0001-8695-6983</datacite:nameIdentifier>
+        <datacite:affiliation>IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:affiliation>
+        <datacite:affiliation affiliationIdentifier="https://ror.org/05591te55" schemeURI="https://ror.org" affiliationIdentifierScheme="ROR">Ludwig-Maximilians-Universität München</datacite:affiliation>
+      </datacite:contributor>
+      <datacite:contributor contributorType="HostingInstitution">
+        <datacite:contributorName nameType="Organizational" xml:lang="de">IT-Gruppe Geisteswissenschaften (ITG), Ludwig-Maximilians-Universität München</datacite:contributorName>
+      </datacite:contributor>
+    </datacite:contributors>
+    <datacite:dates>
+      <datacite:date dateType="Submitted">2021-02-10</datacite:date>
+      <datacite:date dateType="Collected">2019-07-01/2019-12-31</datacite:date>
+    </datacite:dates>
+    <datacite:language>de</datacite:language>
+    <datacite:resourceType resourceTypeGeneral="Dataset">Linguistic Data</datacite:resourceType>
+    <datacite:alternateIdentifiers>
+      <datacite:alternateIdentifier alternateIdentifierType="project-specific identifier">C53_v5</datacite:alternateIdentifier>
+    </datacite:alternateIdentifiers>
+    <datacite:relatedIdentifiers>
+      <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="IsIdenticalTo">https://www.verba-alpina.gwi.uni-muenchen.de/?api=1&amp;action=getRecord&amp;id=C53&amp;version=192&amp;format=csv&amp;empty=0</datacite:relatedIdentifier>
+      <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="IsVariantFormOf">http://dx.doi.org/10.5282/verba-alpina?urlappend=%3Fpage_id%3D133%26db%3D192%26single%3DC53</datacite:relatedIdentifier>
+    <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">de6c9f64-a9b2-399e-a098-98ef6700a13c</datacite:relatedIdentifier>
+    <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">be138f03-2cba-3570-bbae-3318fe421a85</datacite:relatedIdentifier>
+    <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">9a909c98-7f3e-3f07-a2f2-c0f13e4c7c78</datacite:relatedIdentifier>
+    <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="IsPartOf">e0cd73cf-c0a7-4436-9b65-fb5719c09983</datacite:relatedIdentifier>
+	<datacite:relatedIdentifier relatedIdentifierType="URL" relationType="IsNewVersionOf">6fef3a91-9360-3390-b8ee-1503e4da70e2</datacite:relatedIdentifier>
+    </datacite:relatedIdentifiers>
+    <datacite:sizes>
+      <datacite:size>5712B</datacite:size>
+    </datacite:sizes>
+    <datacite:formats>
+      <datacite:format>text/csv</datacite:format>
+    </datacite:formats>
+    <datacite:rightsList>
+      <datacite:rights xml:lang="en-US" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX" rightsIdentifier="CC-BY-SA-4.0" rightsURI="https://creativecommons.org/licenses/by-sa/4.0/"/>
+    </datacite:rightsList>
+    <datacite:descriptions>
+      <datacite:description xml:lang="en" descriptionType="Abstract">Contains 3 VerbaAlpina datasets, which are related to the concept "TRANSPORT VON MIST, MIT SCHLITTEN".</datacite:description>
+    </datacite:descriptions>
+    <datacite:geoLocations>
+      <datacite:geoLocation>
+        <datacite:geoLocationPlace>Colle Santa Lucia</datacite:geoLocationPlace>
+        <datacite:geoLocationPolygon>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4394683837891</datacite:pointLatitude>
+            <datacite:pointLongitude>11.9838953018189</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4394683837891</datacite:pointLatitude>
+            <datacite:pointLongitude>12.0553245544434</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.5028953552246</datacite:pointLatitude>
+            <datacite:pointLongitude>12.0553245544434</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.5028953552246</datacite:pointLatitude>
+            <datacite:pointLongitude>11.9838953018189</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4394683837891</datacite:pointLatitude>
+            <datacite:pointLongitude>11.9838953018189</datacite:pointLongitude>
+          </datacite:polygonPoint>
+        </datacite:geoLocationPolygon>
+      </datacite:geoLocation>
+      <datacite:geoLocation>
+        <datacite:geoLocationPlace>Martello</datacite:geoLocationPlace>
+        <datacite:geoLocationPolygon>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4469757080079</datacite:pointLatitude>
+            <datacite:pointLongitude>10.6014394760133</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4469757080079</datacite:pointLatitude>
+            <datacite:pointLongitude>10.8408222198487</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.5875358581544</datacite:pointLatitude>
+            <datacite:pointLongitude>10.8408222198487</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.5875358581544</datacite:pointLatitude>
+            <datacite:pointLongitude>10.6014394760133</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4469757080079</datacite:pointLatitude>
+            <datacite:pointLongitude>10.6014394760133</datacite:pointLongitude>
+          </datacite:polygonPoint>
+        </datacite:geoLocationPolygon>
+      </datacite:geoLocation>
+      <datacite:geoLocation>
+        <datacite:geoLocationPlace>Selva Di Cadore</datacite:geoLocationPlace>
+        <datacite:geoLocationPolygon>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4206886291504</datacite:pointLatitude>
+            <datacite:pointLongitude>12.007074356079</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4206886291504</datacite:pointLatitude>
+            <datacite:pointLongitude>12.1191129684448</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4827728271484</datacite:pointLatitude>
+            <datacite:pointLongitude>12.1191129684448</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4827728271484</datacite:pointLatitude>
+            <datacite:pointLongitude>12.007074356079</datacite:pointLongitude>
+          </datacite:polygonPoint>
+          <datacite:polygonPoint>
+            <datacite:pointLatitude>46.4206886291504</datacite:pointLatitude>
+            <datacite:pointLongitude>12.007074356079</datacite:pointLongitude>
+          </datacite:polygonPoint>
+        </datacite:geoLocationPolygon>
+      </datacite:geoLocation>
+    </datacite:geoLocations>
+    <datacite:fundingReferences>
+      <datacite:fundingReference>
+        <datacite:funderName>Deutsche Forschungsgemeinschaft (DFG)</datacite:funderName>
+        <datacite:funderIdentifier schemeURI="https://ror.org/" funderIdentifierType="ROR">https://ror.org/018mejw64</datacite:funderIdentifier>
+        <datacite:awardNumber awardURI="http://gepris.dfg.de/gepris/projekt/253900505">253900505</datacite:awardNumber>
+        <datacite:awardTitle>VERBA ALPINA. Der alpine Kulturraum im Spiegel seiner Mehrsprachigkeit</datacite:awardTitle>
+      </datacite:fundingReference>
+    </datacite:fundingReferences>
+  </datacite:resource>
+  <contentUrls>
+    <contentUrl>repositoryUrl/C53_v5.csv</contentUrl>
+  </contentUrls>
+  <metadataUrl>repositoryUrl/C53_v5.xml</metadataUrl>
+  <checksums>
+    <checksum>urn:sha1:5b13123e7aa48dd099e6f7c43f97e5b8b6300434</checksum>
+  </checksums>
+  <hierarchy>level2</hierarchy>
+  <projectVersions>
+    <projectVersion>19/2</projectVersion>
+  </projectVersions>
+  <objectVersion>v5</objectVersion>
+  <currentVersion>true</currentVersion>
+  <collections>
+    <collection>VerbaAlpina</collection>
+  </collections>
+  <faculties>
+    <faculty>Faculty for Languages and Literatures</faculty>
+  </faculties>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Colle Santa Lucia</geoLocationPlace>
+      <geoIdentifier schemeURI="http://www.geonames.org/" nameIdentifierScheme="GeoNames">6541575</geoIdentifier>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Martello</geoLocationPlace>
+      <geoIdentifier schemeURI="http://www.geonames.org/" nameIdentifierScheme="GeoNames">3173850</geoIdentifier>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Selva Di Cadore</geoLocationPlace>
+      <geoIdentifier schemeURI="http://www.geonames.org/" nameIdentifierScheme="GeoNames">6540285</geoIdentifier>
+    </geoLocation>
+  </geoLocations>
+</lmUB:rData>
