@@ -8,10 +8,12 @@ The information, to which level a research data object belongs to, can be stored
 
 ## Support of versioned data
 rdUB has two elements for adding version information: **projectVersion** and **objectVersion**. While projectVersion refers to the version of the project as a whole, objectVersion refers to the version of a single object.  
+
 Another element for describing versioned data is **currentVersion**. currentVersion tags the latest version of an object. This element is useful if you don`t support logical objects (= objects without versioning). 
 
 ## Overview of the rdUB elements
-The root element of rdUB, rData, behaves like a wrapper. It contains a complete DataCite record and a couple of elements that are not (yet) part of DataCite.  
+> The root element of rdUB, rData, behaves like a wrapper. It contains a complete DataCite record and a couple of elements that are not (yet) part of DataCite.  
+
 Apart from those already mentioned, the elements of rdUB are:
 
 | Element | Description |
