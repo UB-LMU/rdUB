@@ -3,7 +3,7 @@
 rdUB is the data format of the research data platform “discover” of the University Library of LMU Munich. It extends the DataCite schema 4.3 by some elements, which are useful for searching and displaying versioned and fine granular data.  
 
 ## Support of fine granular data
-We speak of (fine) granular data when there is more than one level of description. For example: A research project consists of several items. In addition, these items are aggregated into (different types of) datasets. As we describe both the project, the datasets and the items with (rdUB) metadata, there are three levels of description: The project-level (“level1”), the aggregation-level (“level2”) and the item level (“level3”).
+We speak of (fine) granular data when there is more than one level of description. For example: A research project consists of several items. In addition, these items are aggregated into (different types of) datasets. As we describe both the project, the datasets and the items with (rdUB) metadata, there are three levels of description: The [project-level](https://github.com/UB-LMU/rdUB/blob/main/examples/VA_192.xml) (“level1”), the [aggregation-level](https://github.com/UB-LMU/rdUB/blob/main/examples/C53_v5_192.xml) (“level2”) and the [item level](https://github.com/UB-LMU/rdUB/blob/main/examples/G27060_v1_192.xml) (“level3”).
 The information, to which level a research data object belongs to, can be stored in the element **hierarchy**. This element is especially useful for filtering the data, for example with the help of a facet or an OAI-PMH set.  
 
 ## Support of versioned data
