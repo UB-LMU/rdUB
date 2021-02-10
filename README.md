@@ -16,10 +16,10 @@ Apart from those already mentioned, the elements of rdUB are:
 
 | Element | Description |
 | ------ | ------ |
-| contentUrls | The link(s) to the location(s) where the research data is stored. |
-| metadataUrl | The link to the location where the metadata record (= rdUB) of the research data is stored.  |
-| checksums | SHA1 file checksum(s). |
-| collections | One ore more projects or (data) collections to which the research data can be related.  |
-| faculties | The faculty or faculties, the research data belongs to. |
-| geoIdentifier | An additional child element of datacite:geoLocation to store a reference, for example, to GeoNames. |
+| **contentUrls** | The link(s) to the location(s) where the research data is stored. |
+| **metadataUrl** | The link to the location where the metadata record (= rdUB) of the research data is stored.  |
+| **checksums** | SHA1 file checksum(s). |
+| **collections** | One ore more projects or (data) collections to which the research data can be related.  |
+| **faculties** | The faculty or faculties, the research data belongs to. |
+| **geoIdentifier** | An additional child element of datacite:geoLocation to store a reference, for example, to GeoNames. |
  
